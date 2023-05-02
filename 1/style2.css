@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    /* 기본값은 row */
+    /* flex-direction: row-reverse; */
+
+    /* Main Axis */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+
+    /* Cross Axis */
+    /* align-items: stretch; */
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    /* align-items: center; */
+
+    flex-wrap: wrap;
+
+    /* align-content: center; */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+
+    height: 100vh;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+    color: white;
+    background: peru;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -5,7 +5,8 @@ body {
 
 .wrapper {
     display: flex;
-    flex-direction: column; /* 기본값은 row */
+    /* 기본값은 row */
+    flex-direction: column;
     
     /* Main Axis */
     /* justify-content: center; */
@@ -13,7 +14,7 @@ body {
     justify-content: space-around;
     
     /* Cross Axis */
-    align-items: stretch;
+    /* align-items: stretch; */
     /* align-items: flex-end; */
     /* align-items: flex-start; */
     /* align-items: center; */
@@ -21,11 +22,28 @@ body {
 }
 
 .box {
-    /* width: 200px; */
+    width: 200px;
     height: 200px;
     color: white;
     background: peru;
 }
+
+.box:nth-child(1) {
+    align-self: center;
+    order: 2;
+}
+
+.box:nth-child(2) {
+    order: 3;
+}
+
+/* .box:nth-child(2) {
+    align-self: center;
+}
+
+.box:nth-child(3) {
+    align-self: flex-end;
+} */
 
 /* .box {
     background: blue;
