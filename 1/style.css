@@ -7,12 +7,12 @@ body {
     display: flex;
     /* 기본값은 row */
     flex-direction: column;
-    
+
     /* Main Axis */
     /* justify-content: center; */
     /* justify-content: space-between; */
     justify-content: space-around;
-    
+
     /* Cross Axis */
     /* align-items: stretch; */
     /* align-items: flex-end; */
