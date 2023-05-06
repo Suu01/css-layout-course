@@ -5,7 +5,7 @@ body {
 
 .wrapper {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     /* Main Axis */
     justify-content: space-around;
     /* Cross Axis */
@@ -18,35 +18,22 @@ body {
     height: 200px;
     background: peru;
     color: white;
+    font-size: 50px;
 }
 
 .box:nth-child(1) {
-    align-self: center;
-    order: 2;
+    /* align-self: center; */
+    /* order: 2; */
 }
 
 .box:nth-child(2) {
-    order: 3;
+    /* order: 3; */
+    order: 1;
 }
 
 /* .box:nth-child(2) {
     align-self: center;
 }
-
 .box:nth-child(3) {
     align-self: flex-end;
-} */
-
-/* .box {
-    background: blue;
-    width: 300px;
-    height: 300px;
-    display: inline-block;
-    color: white;
-}
-.box:nth-child(2) {
-    margin-left: 190px;
-}
-.box:nth-child(3) {
-    margin-left: 160px;
 } */
