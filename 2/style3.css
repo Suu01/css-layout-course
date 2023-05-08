@@ -5,16 +5,20 @@ body {
 .grid {
     display: grid;
     grid-template-columns: auto 200px;
-    /* grid-template-columns: repeat(4, 200px); */
-    /* grid-template-columns: 200px 200px 200px 200px; */
     grid-template-rows: 100px repeat(2, 200px) 100px;
-    /* grid-template-rows: 300px 300px 300px 300px; */
+    /* grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 300px 300px 300px 300px; */
+    /* grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(4, 300px);
+    grid-template-rows: repeat(4, 200px); */
+    /* grid-template-columns: repeat(4, 200px);
+    grid-template-rows: 100px repeat(2, 200px) 100px; */
+
     grid-template-areas:
     "header header header header"
     "content content content nav"
     "content content content nav"
     "footer footer footer footer";
-
     /* grid-template-areas:
     "header header header header"
     "content content . nav"
